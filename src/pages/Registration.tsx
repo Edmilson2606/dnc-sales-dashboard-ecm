@@ -1,22 +1,22 @@
 import styled from 'styled-components'
 
 const RegistrationArea = styled.div`
-    background: #333;
+  background: #333;
 `
 const RegistrationImage = styled.div`
-    background-image: url(/login-image.svg);
-    background-size: cover;
-    height: 100vh;
-    width: 50vw;
+  background-image: url(/login-image.svg);
+  background-size: cover;
+  height: 100vh;
+  width: 50vw;
 `
 
 function Registration() {
-    return (
-        <>
-            <RegistrationArea>CADASTRO</RegistrationArea>
-            <RegistrationImage />
-        </>
-    )
+  return (
+    <>
+      <RegistrationArea>CADASTRO</RegistrationArea>
+      <RegistrationImage />
+    </>
+  )
 }
 
 export default Registration
