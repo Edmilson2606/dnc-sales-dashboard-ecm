@@ -1,4 +1,4 @@
-import type { Theme } from '@types'
+import type { Theme } from '@/types'
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle<{ theme?: Theme }>`
