@@ -21,5 +21,11 @@ export default tseslint.config([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    "rules": {
+      // Resolvendo conflito entre eslint e prettier no componente AppThemeContext.tsx
+      //"react-refresh/only-export-components": "off"
+      // "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }]
+      "react-refresh/only-export-components": ["off", { "allowConstantExport": true }]
+    },
   },
 ])
