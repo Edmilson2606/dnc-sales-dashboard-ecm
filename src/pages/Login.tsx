@@ -78,7 +78,8 @@ function Login() {
                   type: input.type,
                   placeholder: input.placeholder,
                   value: formValues[index] || '',
-                  onChange: (e: ChangeEvent<HTMLInputElement>) => handleChange(index, (e.target as HTMLInputElement).value)
+                  onChange: (e: ChangeEvent<HTMLInputElement>) =>
+                    handleChange(index, (e.target as HTMLInputElement).value),
                 }))}
                 buttons={[
                   {
